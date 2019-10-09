@@ -1,22 +1,23 @@
 {
-	"name": "indextank/yii2-plugin-wechat",
-	"description": "WeChat SDK for yii2.0",
-	"keywords": ["yii2", "wechat", "easywechat", "php", "indextank"],
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "indextank"
-		}
-	],
-	"type": "yii2-extension",
-	"require": {
+    "name": "indextank/yii2-plugin-wechat",
+    "description": "WeChat SDK for yii2.0",
+    "type": "composer-plugin",
+    "require": {
 		"php": ">=7.0",
 		"yiisoft/yii2": "~2.0.6",
 		"overtrue/wechat": "~4.0"
-	},
-	"autoload": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "indextank",
+            "email": "nginx11724@qq.com"
+        }
+    ],
+    "autoload": {
 		"psr-4": {
 			"indextank\\easywechat\\": "./src"
 		}
-	}
+	},
+    "minimum-stability": "dev"
 }
