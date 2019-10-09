@@ -19,5 +19,4 @@
 			"indextank\\easywechat\\": "./src"
 		}
 	},
-    "minimum-stability": "dev"
 }
