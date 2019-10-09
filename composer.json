@@ -1,7 +1,7 @@
 {
     "name": "indextank/yii2-plugin-wechat",
     "description": "WeChat SDK for yii2.0",
-    "type": "composer-plugin",
+    "type": "yii2-extension",
     "require": {
 		"php": ">=7.0",
 		"yiisoft/yii2": "~2.0.6",
